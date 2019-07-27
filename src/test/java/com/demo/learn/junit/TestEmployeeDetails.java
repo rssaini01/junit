@@ -8,8 +8,8 @@ import com.demo.learn.junit.sample.EmployeeDetails;
 import static org.junit.Assert.assertEquals;
 
 public class TestEmployeeDetails {
-	EmpBusinessLogic empBusinessLogic = new EmpBusinessLogic();
-	EmployeeDetails employee = new EmployeeDetails();
+	private EmpBusinessLogic empBusinessLogic = new EmpBusinessLogic();
+	private EmployeeDetails employee = new EmployeeDetails();
 
 	// test to check appraisal
 	@Test
